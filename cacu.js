@@ -1,24 +1,24 @@
 function Addition() {
-    let input = document.getElementById("numberInput").value;
-    let input2 = document.getElementById("numberInput2").value;
+    let input = Number( document.getElementById("numberInput").value);
+    let input2 = Number ( document.getElementById("numberInput2").value);
     let addition = input + input2;
-    document.getElementById("Addition").innerText = "Result: " + addition;
+    document.getElementById("result").innerHTML = "Result: " + addition;
 }
 function Subtraction() {
-    let input = document.getElementById("numberInput").value;
-    let input2 = document.getElementById("numberInput2").value;
+    let input = Number (document.getElementById("numberInput").value);
+    let input2 =Number ( document.getElementById("numberInput2").value);
     let subtraction = input - input2;
-    document.getElementById("subtraction").innerText = "Result: " + subtraction;
+    document.getElementById("result").innerHTML = "Result: " + subtraction;
 }
 function Multiptication() {
-    let input = document.getElementById("numberInput").value;
-    let input2 = document.getElementById("numberInput2").value;
+    let input = Number (document.getElementById("numberInput").value);
+    let input2 =Number ( document.getElementById("numberInput2").value);
     let multiptication = input * input2;
-    document.getElementById("Multiptication").innerText = "Result: " + multiptication;
+    document.getElementById("result").innerHTML = "Result: " + multiptication;
 }
 function Division() {
-    let input = document.getElementById("numberInput").value;
-    let input2 = document.getElementById("numberInput2").value;
-    let division = input + input2;
-    document.getElementById("Division").innerText = "Result: " + division;
+    let input = Number (document.getElementById("numberInput").value);
+    let input2 =Number ( document.getElementById("numberInput2").value);
+    let division = input / input2;
+    document.getElementById("result").innerHTML = "Result: " + division;
 }
